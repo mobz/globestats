@@ -259,7 +259,7 @@ Globe = function(container) {
 
   function zoom(delta) {
     distanceTarget -= delta;
-    distanceTarget = distanceTarget > 1000 ? 1000 : distanceTarget;
+    distanceTarget = distanceTarget > 1200 ? 1200 : distanceTarget;
     distanceTarget = distanceTarget < 350 ? 350 : distanceTarget;
   }
 
@@ -331,10 +331,6 @@ Globe = function(container) {
 
   init();
   this.animate = animate;
-
-
-  //this.renderer = renderer;
-  //this.scene = scene;
   this.addPoint = addPoint;
   return this;
 };
