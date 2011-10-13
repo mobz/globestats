@@ -20,7 +20,7 @@ node server/server.js
 
 And finally point your browser to http://localhost:8000/ . The server
 will start sending randomly generated lat/lng data. Hook it up to your
-analytics systems to get it to plot real data.
+analytics systems to get it plot real data.
 
 <img src="https://github.com/zsolt/zsolt.github.com/raw/master/globestats.jpg" width="366"
 height="349"/>
