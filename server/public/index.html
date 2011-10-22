@@ -36,7 +36,7 @@
     } else {
       var container = document.getElementById('container');
       var globe = new Globe(container);
-      var socket = io.connect('http://localhost');
+      var socket = io.connect(window.location.href);
       socket.on('latlng', function (data) {
         var c = new THREE.Color();
         c.setHSV( 0.55 , 1.0, 1.0 );
