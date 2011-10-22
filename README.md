@@ -22,5 +22,7 @@ And finally point your browser to http://localhost:8000/ . The server
 will start sending randomly generated lat/lng data. Hook it up to your
 analytics systems to get it plot real data.
 
-<img src="http://zsolt.github.com/globestats.jpg" width="366"
-height="349"/>
+<a href="http://globestats.cloudno.de/"><img src="http://zsolt.github.com/globestats.jpg" width="366"
+height="349" border="0"/></a>
+
+Live demo at http://globestats.cloudno.de/
